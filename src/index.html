@@ -294,6 +294,110 @@
           </div>
         </section>
       </article>
+
+      <article class="contact">
+        <h2
+          class="contact__title title"
+          id="contact"
+        >
+          Contact us
+        </h2>
+
+        <section class="contact__wrapper">
+          <div class="contact__form-wrapper">
+            <form
+              action="#"
+              method="get"
+              class="contact__form"
+              id="contact-form"
+            >
+              <label for="name"></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                class="contact__input contact__input--first"
+                minlength="5"
+                required
+              >
+
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                class="contact__input"
+                required
+              >
+
+              <label for="message"></label>
+              <textarea
+                class="contact__input contact__input--text-area"
+                name="message"
+                id="message"
+                placeholder="Message"
+                minlength="5"
+                required
+              ></textarea>
+
+              <button
+                type="submit"
+                class="button contact__button"
+                id="form-submit"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+
+          <div class="contact__details">
+            <p
+              class="contact__details-label
+              contact__details-label--first"
+            >
+              Phone
+            </p>
+
+            <a
+              href="tel:+1 234 5555-55-55"
+              class="contact__details-link"
+            >
+              +1 234
+              5555-55-55
+            </a>
+
+            <p class="contact__details-label">
+              Email
+            </p>
+
+            <a
+              href="mailto: hello@miami.com"
+              class="contact__details-link"
+              target="_blank"
+            >
+              hello@miami.com
+            </a>
+
+            <p class="contact__details-label">
+              Address
+            </p>
+
+            <a
+              href="https://goo.gl/maps/zCEo9RN2a6Bx2nXy8"
+              class="contact__details-link"
+              target= "_blank"
+            >
+              400 first ave.
+              <br>
+              suite 700
+              <br>
+              Minneapolis, MN 55401
+            </a>
+          </div>
+        </section>
+      </article>
     </main>
   </body>
 </html>
